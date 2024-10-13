@@ -11,7 +11,7 @@ import (
 )
 
 type ServerResponse struct {
-	Bid string `json: "bid"`
+	Bid string `json:"bid"`
 }
 
 func main() {
